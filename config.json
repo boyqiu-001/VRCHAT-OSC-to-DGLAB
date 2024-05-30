@@ -1,0 +1,46 @@
+{
+    "ipAddress": "",
+    "sleepTime": 0.1,
+    "oscSettings": [
+        {
+            "avatarParameter": "/avatar/parameters/contact_pussy",
+            "mode": 2,
+            "judgeSettings": [
+                {
+                    "value": 1.1,
+                    "pattern": "呼吸",
+                    "channel": "A",
+                    "intensity": 100,
+                    "ticks": 30
+                },
+                {
+                    "value": 0.1,
+                    "pattern": "呼吸",
+                    "channel": "A",
+                    "intensity": 0,
+                    "ticks": 30
+                }
+            ]
+        },
+        {
+            "avatarParameter": "/avatar/parameters/contact_pussy",
+            "mode": 2,
+            "judgeSettings": [
+                {
+                    "value": 1.2,
+                    "pattern": "呼吸",
+                    "channel": "A",
+                    "intensity": 100,
+                    "ticks": 30
+                },
+                {
+                    "value": 0.3,
+                    "pattern": "呼吸",
+                    "channel": "A",
+                    "intensity": 0,
+                    "ticks": 30
+                }
+            ]
+        }
+    ]
+}

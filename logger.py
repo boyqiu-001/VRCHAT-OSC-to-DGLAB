@@ -16,6 +16,6 @@ def logger(name):
     ch.setFormatter(formatter)
 
     logger.addHandler(fh)
-    logger.addHandler(ch)
+    # logger.addHandler(ch)
     logger.setLevel(logging.INFO)
     return logger

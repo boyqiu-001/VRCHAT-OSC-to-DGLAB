@@ -7,14 +7,14 @@ defaultConfig={
             "mode": 0,
             "judgeSettings": [
                 {
-                    "value": 0,
+                    "value": 1,
                     "pattern": "呼吸",
                     "channel": "A",
                     "intensity": 0,
                     "ticks": 30
                 },
                 {
-                    "value": 1,
+                    "value": 0,
                     "pattern": "呼吸",
                     "channel": "A",
                     "intensity": 100,
@@ -27,42 +27,37 @@ defaultConfig={
             "mode": 2,
             "judgeSettings": [
                 {
-                    "value": 0.2,
+                    "value": 1,
                     "pattern": "呼吸",
-                    "channel": "A",
+                    "channel": "B",
                     "intensity": 0,
                     "ticks": 30
                 },
-                
                 {
                     "value": 0.4,
                     "pattern": "呼吸",
-                    "channel": "A",
+                    "channel": "B",
                     "intensity": 25,
                     "ticks": 30
                 },
-                
-                
                 {
-                    "value": 0.6,
+                    "value": 0.3,
                     "pattern": "呼吸",
-                    "channel": "A",
+                    "channel": "B",
                     "intensity": 50,
                     "ticks": 30
                 },
-                
-                
                 {
-                    "value": 0.8,
+                    "value": 0.2,
                     "pattern": "呼吸",
-                    "channel": "A",
+                    "channel": "B",
                     "intensity": 75,
                     "ticks": 30
                 },
                 {
-                    "value": 1,
+                    "value": 0.1,
                     "pattern": "呼吸",
-                    "channel": "A",
+                    "channel": "B",
                     "intensity": 100,
                     "ticks": 30
                 }

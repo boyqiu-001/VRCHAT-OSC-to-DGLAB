@@ -1,4 +1,16 @@
+
 一个简单的监控VRCHAT OSC 参数并想DGLAB 3.0发送控制socket信号的局域网程序。
+
+qq测试群：950365676
+
+package require:
+
+    tinyoscquery(cannot pip,see:https://github.com/cyberkitsune/tinyoscquery)
+    pydglab_ws
+    qrcode[pil]
+
+
+
 
 
 

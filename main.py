@@ -352,7 +352,7 @@ class App(tk.Frame):
         avatarParameter=''
         i=0
         for i in range(0,len(self.config["oscSettings"])):
-            avatarParameter+=self.config["oscSettings"][i]["avatarParameter"].split('/')[-1]
+            avatarParameter+=self.config["oscSettings"][i]["avatarParameter"].split('/',3)[3]
             avatarParameter+=' '
         return avatarParameter
     def _getJudgeMode(self,index)->int:
